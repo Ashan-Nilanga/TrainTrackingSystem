@@ -1,11 +1,11 @@
 {
-  "name": "sri-lanka-railways",
+  "name": "TrainTrackingSystem",
   "version": "1.0.0",
-  "description": "mongodb+srv://lihinisupunikaw:lWW1RF07nPD5csOg@cluster0.j7swb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+  "description": "mongodb+srv://ashanliyanage324:IcU3CKKivH3HAjP3@cluster0.uxqez.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
