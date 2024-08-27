@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "TrainTrackingSystem",
   "version": "1.0.0",
   "description": "mongodb+srv://ashanliyanage324:IcU3CKKivH3HAjP3@cluster0.uxqez.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
@@ -7,16 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
-=======
-  "name": "sri-lanka-railways",
-  "version": "1.0.0",
-  "description": "mongodb+srv://lihinisupunikaw:lWW1RF07nPD5csOg@cluster0.j7swb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
->>>>>>> cb3658f (Created Backend and connected Mongo)
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",

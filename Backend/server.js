@@ -21,6 +21,8 @@ mongoose
     console.error("Failed to connect to MongoDB Atlas", err);
   });
 
+const positionEndpoints = require("./endpoints/positionEndpoints");
+app.use("/api", positionEndpoints);
 
 const SERVER_PORT = process.env.PORT || 3000;
 app.listen(SERVER_PORT, () => {
