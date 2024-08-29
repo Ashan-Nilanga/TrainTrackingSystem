@@ -7,8 +7,8 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-const mongourl ="mongodb+srv://ashanliyanage324:IcU3CKKivH3HAjP3@cluster0.uxqez.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
-
+const mongourl ="mongodb+srv://ashanliyanage324:IcU3CKKivH3HAjP3@cluster0.uxqez.mongodb.net/TrainTrackingSystem?retryWrites=true&w=majority&appName=Cluster0";
+//mongodb+srv://ashanliyanage324:IcU3CKKivH3HAjP3@cluster0.uxqez.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 mongoose
   .connect(mongourl, {
     useNewUrlParser: true,
