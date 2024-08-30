@@ -24,6 +24,10 @@ mongoose
 const positionEndpoints = require("./endpoints/positionEndpoints");
 app.use("/api", positionEndpoints);
 
+app.get('/', (req, res) => {
+  res.send("Welcome to Server..!")
+})
+
 const SERVER_PORT = process.env.PORT || 3000;
 app.listen(SERVER_PORT, () => {
   console.log(`Server is running on port ${SERVER_PORT}`);
