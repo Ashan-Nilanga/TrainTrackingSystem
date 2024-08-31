@@ -18,7 +18,7 @@ const TrainTracker = () => {
   useEffect(() => {
     const fetchTrainPositions = async () => {
       try {
-        const response = await axios.get('http://localhost:3000/api/vehicles/latest-positions'); // Update this URL with your backend API endpoint
+        const response = await axios.get('https://train-tracking-system.vercel.app/api/vehicles/latest-positions'); // Update this URL with your backend API endpoint
         setPositions(response.data);
       } catch (error) {
         console.error('Error fetching train positions:', error);
