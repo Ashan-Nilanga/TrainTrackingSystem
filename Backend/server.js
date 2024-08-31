@@ -5,14 +5,12 @@ const mongoose = require("mongoose");
 
 const app = express();
 app.use(bodyParser.json());
-// app.use(cors());
 
+let corsOptions = {
+  origin : ['http://localhost:3000', 'https://train-tracking-system-1dka.vercel.app'],
+}
 
-app.use(cors({
-  origin: 'https://train-tracking-system-1dka.vercel.app',
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  credentials: true 
-}));
+app.use(cors(corsOptions))
 
 const mongourl ="mongodb+srv://ashanliyanage324:IcU3CKKivH3HAjP3@cluster0.uxqez.mongodb.net/TrainTrackingSystem?retryWrites=true&w=majority&appName=Cluster0";
 //mongodb+srv://ashanliyanage324:IcU3CKKivH3HAjP3@cluster0.uxqez.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
